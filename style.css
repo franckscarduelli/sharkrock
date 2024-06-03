@@ -10,7 +10,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -29,7 +28,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background: #222;
+    background: var(--color1);
 }
 
 html::-webkit-scrollbar-thumb{
