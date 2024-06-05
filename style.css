@@ -46,6 +46,14 @@ section{
     padding: 1rem;
 }
 
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .btn{
     padding: .7rem 3rem;
     background: #333;
@@ -154,70 +162,38 @@ header .navbar ul li a:hover{
 
 /* media queries   */
 
-@media (max-width:1200px){
-
-    html{
-        font-size: 55%;
+@media (max-width:475px){
+    .container{
+        max-width: 475px;
     }
-
-    .home{
-        padding: 1rem 4rem;
-    }
-
 }
 
-@media (max-width:991px){
-
-    header{
-        left: -120%;
+@media (max-width:640px){
+    .container{
+        max-width: 640px;
     }
-
-    #menu{
-        display: block;
-    }
-
-    header.toggle{
-        left:0%;
-    }
-
-    body{
-        padding: 0;
-    }
-
 }
 
 @media (max-width:768px){
-
-    html{
-        font-size: 50%;
+    .container{
+        max-width: 768px;
     }
-
 }
 
-@media (max-width:400px){
-
-    header{
-        width: 100vw;
+@media (max-width:1024px){
+    .container{
+        max-width: 1024px;
     }
+}
 
-    .heading{
-        margin: 0 3rem;
+@media (max-width:1280px){
+    .container{
+        max-width: 1280px;
     }
+}
 
-    .about .row .counter .box{
-        width: 100%;
+@media (max-width:1536px){
+    .container{
+        max-width: 1536px;
     }
-
-    .education .box-container .box{
-        width: 100%;
-    }
-    
-    .portfolio .box-container .box{
-        width: 100%;
-    }
-
-    .contact .row form{
-        margin: 3rem 0;
-    }
-
 }
