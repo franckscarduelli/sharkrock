@@ -100,21 +100,20 @@ header{
     text-align: center;
 }
 
-header .user img{
+header .logo img{
     height: 17rem;
     width: 17rem;
-    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border: .7rem solid #333;
 }
 
-header .user .name{
+header .logo .name{
     font-size: 3.5rem;
     color: #fff;
 }
 
-header .user .post{
+header .logo .post{
     font-size: 2rem;
     color: #eee;
 }
