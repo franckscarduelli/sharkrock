@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-    --color1: #f9ca24;
+    --color1: #5a7d97;
+    --color2: #84a8c1;
 }
 
 *{
@@ -93,21 +94,19 @@ header{
     text-align: center;
 }
 
-header .user img{
-    height: 17rem;
-    width: 17rem;
-    border-radius: 50%;
+header .logo img{
+    height: 10%;
+    width: 10%;
+    border-radius: 0%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    border: .7rem solid var(--color1);
 }
 
-header .user .name{
+header .logo .name{
     font-size: 3.5rem;
     color: #fff;
 }
 
-header .user .post{
+header .logo .post{
     font-size: 2rem;
     color: #eee;
 }
