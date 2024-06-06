@@ -94,8 +94,8 @@ header{
 }
 
 header .logo img{
-    height: 90%;
-    width: 90%;
+    height: 17rem;
+    width: 17rem;
     border-radius: 0%;
     object-fit: cover;
 }
