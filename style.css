@@ -5,7 +5,6 @@
     --azul2: #5a7d97;
     --preto1: #111;
     --preto2: #222;
-    --preto3: #333;
     --branco1: #fff;
     --branco2: #eee;
 }
@@ -21,7 +20,7 @@
 
 *::selection{
     background: var(--azul1);
-    color: var(--preto3);
+    color: var(--preto2);
 }
 
 html{
@@ -42,7 +41,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: var(--preto2);
+    background: var(--preto1);
     overflow-x: hidden;
 }
 
@@ -85,7 +84,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background: var(--preto3);
+    background: var(--preto2);
 }
 
 .social{
@@ -100,7 +99,7 @@ header .navbar ul li a:hover{
 }
 
 .social a:hover{
-    color: var(--preto3);
+    color: var(--preto2);
 }
 
 .heading{
@@ -143,7 +142,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    background: var(--preto1);
+    background: var(--preto2);
     color: var(--branco2);
     padding: 2rem;
 }
