@@ -1,28 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<!-- Google Tag Manager -->
+    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NKRQ966W');</script>
-<!-- End Google Tag Manager -->
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NKRQ966W');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SharkRock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/img/sharkrock-favicon.png">
+    <link rel="icon" type="image/x-icon" href="/img/sharkrock-icon.png">
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKRQ966W"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
     <header>
-        <img src="img/sharkrock-logo.png" alt="SharkRock" width="300px">
+        <div class="logo">
+            <img src="img/sharkrock-logo.png" alt="SharkRock Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#bandas">Bandas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.instagram.com/sharkrockoficial" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com/@sharkrockoficial" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="bandas" id="bandas">
+            <h1 class="heading">Bandas</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="img/sharkrock-icon-sqr.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h1 class="heading">Contato</h1>
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4428326.038801583!2d-52.84889802489681!3d-26.885561234212304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952142592ca52293%3A0xf8e8b689980101de!2zVHViYXLDo28sIFND!5e0!3m2!1spt-BR!2sbr!4v1717858187870!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="https://formsubmit.co/contato@sharkrock.com.br" method="POST">
+                    <input type="text" placeholder="Nome" class="box" required>
+                    <input type="email" placeholder="Email" class="box" required>
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane"></i> </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy; <script>document.write( new Date().getFullYear() );</script> <a class="hover-text" style="text-decoration: none; color: #eee;" href="https://sharkrock.com.br/" onMouseOver="this.style.color='#84a8c1'" onMouseOut="this.style.color='#eee'">SharkRock</a></p>
+        </div>
+    </footer>
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
 </body>
 </html>
