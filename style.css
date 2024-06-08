@@ -30,7 +30,7 @@ html{
 }
 
 html::-webkit-scrollbar{
-    width: .5rem;
+    width: 1rem;
 }s
 
 html::-webkit-scrollbar-track{
