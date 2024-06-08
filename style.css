@@ -5,6 +5,7 @@
     --azul2: #5a7d97;
     --preto1: #111;
     --preto2: #222;
+    --preto3: #333;
     --branco1: #fff;
     --branco2: #eee;
 }
@@ -33,11 +34,11 @@ html::-webkit-scrollbar{
 }s
 
 html::-webkit-scrollbar-track{
-    background: var(--preto2);
+    background: var(--preto3);
 }
 
 html::-webkit-scrollbar-thumb{
-    background: var(--azul1);
+    background: var(--azul2);
 }
 
 body{
