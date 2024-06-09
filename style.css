@@ -144,20 +144,14 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 4rem;
+    margin: 0rem;
 }
 
 .contato .row .content{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2rem;
-}
-
-.contato .row .content .title{
-    color: var(--branco2);
-    font-size: 3rem;
-    padding-bottom: 1rem;
+    margin: 4rem;
 }
 
 .contato .row .content .info h3{
@@ -176,9 +170,9 @@ header .navbar ul li a:hover{
 
 .googlemap-responsive{
     overflow:hidden;
-    padding-bottom:120%;
+    padding-bottom:100%;
     position:relative;
-    height:0;
+    height:100%;
 }
 
 .googlemap-responsive iframe{
