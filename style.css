@@ -139,6 +139,57 @@ header .navbar ul li a:hover{
     transform: scale(1.1);
 }
 
+.contato .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+}
+
+.contato .row .content{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.contato .row .content .title{
+    color: var(--branco2);
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.contato .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--branco2);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.contato .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--azul1);
+}
+
+.googlemap-responsive{
+    overflow:hidden;
+    padding-bottom:120%;
+    position:relative;
+    height:0;
+}
+
+.googlemap-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position: absolute;
+    margin-top: 2rem;
+}
+
 .footer{
     text-align: center;
     font-size: 1.5rem;
